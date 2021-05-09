@@ -1,7 +1,7 @@
 rasa:
         production:
-                url: http://dsysang.net:5005
+                url: http://rasa-production:5005
                 token: ${RASA_TOKEN}
         worker:
-                url: http://dsysang.xyz:5005
+                url: http://rasa-worker:5005
                 token: ${RASA_TOKEN}
