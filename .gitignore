@@ -1,5 +1,7 @@
+src/
 models/**
 db/**
 logs/**
+.config/**
 
 !.gitkeep
