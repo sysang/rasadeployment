@@ -202,3 +202,8 @@ services:
       REDIS_PASSWORD: ${REDIS_PASSWORD}
     expose:
       - "6379"
+  dialogue_server:
+    restart: always
+    image: "sysang/dialogue_server:latest"
+    expose:
+      - "8000"

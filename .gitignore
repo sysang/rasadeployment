@@ -1,4 +1,4 @@
-src/
+rasa_server/
 models/**
 db/**
 logs/**
